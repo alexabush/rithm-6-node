@@ -1,0 +1,7 @@
+extends base.pug
+
+block content
+  h1 Hello World #{name}
+  a(href='https://www.${name}') Button
+  for num in favNums
+    li #{num}
